@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{EE0CAB86-08DB-4488-8815-3ADD013A67DD}") = "PollutionTweaks", "Source\PollutionTweaks.csproj", "{EDF48050-637F-4B92-897B-F8CF1D2F5B65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDF48050-637F-4B92-897B-F8CF1D2F5B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF48050-637F-4B92-897B-F8CF1D2F5B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF48050-637F-4B92-897B-F8CF1D2F5B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF48050-637F-4B92-897B-F8CF1D2F5B65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {231AC4A7-8E70-4EE2-9941-AA8399CAD4D5}
+	EndGlobalSection
+EndGlobal

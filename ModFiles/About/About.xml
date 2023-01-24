@@ -1,0 +1,26 @@
+<ModMetaData>
+	<name>Pollution Tweaks</name>
+	<author>kathanon</author>
+    <packageId>kathanon.PollutionTweaks</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<description>Gives more control over how pollution is generated in the world.
+
+Also adds options for making Acidic Smog spread pollution, and for controlling how &quot;nearby pollution&quot; is calculated.
+
+Default values mimic vanilla behavior.</description>
+	<url>https://github.com/kathanon/RimWorld-PollutionTweaks</url>
+
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId> 
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+	</loadAfter>
+</ModMetaData>

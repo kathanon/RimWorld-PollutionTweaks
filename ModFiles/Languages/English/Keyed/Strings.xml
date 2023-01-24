@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- World creation -->
+    <kathanon.PollutionTweaks.PollutionTip>The percentage of tiles that are polluted at game start.</kathanon.PollutionTweaks.PollutionTip>
+    <kathanon.PollutionTweaks.PollutionRange>Pollution range</kathanon.PollutionTweaks.PollutionRange>
+    <kathanon.PollutionTweaks.PollutionRangeTip>The range of pollution values for individual tiles.</kathanon.PollutionTweaks.PollutionRangeTip>
+    <kathanon.PollutionTweaks.PollutionSpread>Adjust pollution variance</kathanon.PollutionTweaks.PollutionSpread>
+    <kathanon.PollutionTweaks.PollutionSpreadTip>A side effect of the vanilla pollution generation is that with low pollution percentage, a low number of highly polluted tiles are generated, while a high setting leads to a larger variation of pollution values. With this activated, a more even spread of values will be generated.</kathanon.PollutionTweaks.PollutionSpreadTip>
+  
+    <!-- Settings -->
+    <kathanon.PollutionTweaks.SpreadPollution>Spread pollution during acidic smog:</kathanon.PollutionTweaks.SpreadPollution>
+    <kathanon.PollutionTweaks.NearbyPollutionWeighing>Weighting of tiles based on distance when calculating &quot;nearby pollution&quot;:</kathanon.PollutionTweaks.NearbyPollutionWeighing>
+    <kathanon.PollutionTweaks.NearbyPollutionTitle>Nearby Pollution:</kathanon.PollutionTweaks.NearbyPollutionTitle>
+    <kathanon.PollutionTweaks.Distance>Distance</kathanon.PollutionTweaks.Distance>
+    <kathanon.PollutionTweaks.SmogTitle>Acidic Smog:</kathanon.PollutionTweaks.SmogTitle>
+    <kathanon.PollutionTweaks.Amount>Amount</kathanon.PollutionTweaks.Amount>
+    <kathanon.PollutionTweaks.AmountTip>The amount of pollution to spread each interval during acidic smog.</kathanon.PollutionTweaks.AmountTip>
+    <kathanon.PollutionTweaks.IntervalTip>The interval between spreading new pollution during acidic smog.</kathanon.PollutionTweaks.IntervalTip>
+    <kathanon.PollutionTweaks.Interval>Interval</kathanon.PollutionTweaks.Interval>
+    <kathanon.PollutionTweaks.MaxWeight>Max weight</kathanon.PollutionTweaks.MaxWeight>
+    <kathanon.PollutionTweaks.Reset>Reset</kathanon.PollutionTweaks.Reset>
+    <kathanon.PollutionTweaks.AddPoint>Add point</kathanon.PollutionTweaks.AddPoint>
+    <kathanon.PollutionTweaks.RemovePoint>Remove point</kathanon.PollutionTweaks.RemovePoint>
+    <kathanon.PollutionTweaks.WeightVertical>W
+e
+i
+g
+h
+t</kathanon.PollutionTweaks.WeightVertical>
+</LanguageData>
