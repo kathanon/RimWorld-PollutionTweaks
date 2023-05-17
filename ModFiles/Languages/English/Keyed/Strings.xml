@@ -5,7 +5,7 @@
     <kathanon.PollutionTweaks.PollutionRange>Pollution range</kathanon.PollutionTweaks.PollutionRange>
     <kathanon.PollutionTweaks.PollutionRangeTip>The range of pollution values for individual tiles.</kathanon.PollutionTweaks.PollutionRangeTip>
     <kathanon.PollutionTweaks.PollutionSpread>Adjust pollution variance</kathanon.PollutionTweaks.PollutionSpread>
-    <kathanon.PollutionTweaks.PollutionSpreadTip>A side effect of the vanilla pollution generation is that with low pollution percentage, a low number of highly polluted tiles are generated, while a high setting leads to a larger variation of pollution values. With this activated, a more even spread of values will be generated.</kathanon.PollutionTweaks.PollutionSpreadTip>
+    <kathanon.PollutionTweaks.PollutionSpreadTip>The vanilla pollution generation generates a skewed range of pollution values. With low pollution percentage, a low number of highly polluted tiles are generated, while a high setting leads to a larger variation of pollution values. With this activated, an even spread of values will always be generated.</kathanon.PollutionTweaks.PollutionSpreadTip>
   
     <!-- Settings -->
     <kathanon.PollutionTweaks.SpreadPollution>Spread pollution during acidic smog:</kathanon.PollutionTweaks.SpreadPollution>
