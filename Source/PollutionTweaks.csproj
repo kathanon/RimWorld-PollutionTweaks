@@ -59,6 +59,7 @@
   </ItemGroup>
   <!-- Project files -->
   <ItemGroup>
+    <Compile Include="Compat_RealisticPlanets.cs" />
     <Compile Include="Patch_GameCondition_NoxiousHaze.cs" />
     <Compile Include="Patch_Page_CreateWorldParams.cs" />
     <Compile Include="Patch_WorldGenStep_Pollution.cs" />

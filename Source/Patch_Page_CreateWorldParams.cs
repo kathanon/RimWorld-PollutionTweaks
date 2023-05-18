@@ -42,13 +42,17 @@ public static class Patch_Page_CreateWorldParams {
             if (instr.opcode == OpCodes.Stfld && instr.operand is FieldInfo arg && arg == pollution) {
                 yield return new CodeInstruction(OpCodes.Ldarg_1);
                 yield return new CodeInstruction(OpCodes.Ldloca_S, 7);
+                yield return new CodeInstruction(OpCodes.Ldc_R4, 0f);
                 yield return CodeInstruction.Call(typeof(Patch_Page_CreateWorldParams), nameof(WindowContentAdditions));
             }
         }
     }
 
-    public static void WindowContentAdditions(Rect rect, ref float curY) {
-        Rect area = new Rect(rect.x, curY, (rect.width - Margin) * 0.5f, Height);
+    public static void WindowContentAdditions(Rect rect, ref float curY, float width = 0f) {
+        if (width <= 0f) {
+            width = (rect.width - Margin) * 0.5f;
+        }
+        Rect area = new Rect(rect.x, curY, width, Height);
         TooltipHandler.TipRegion(area, Strings.PollutionTip);
         area.y += YStep;
 
